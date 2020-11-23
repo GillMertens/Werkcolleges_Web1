@@ -1,0 +1,48 @@
+ul.social {
+  display: flex;
+}
+
+ul.social li {
+  list-style: none;
+  width: 48px;
+  height: 48px;
+  margin: 0 3px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.facebook {
+  background: url(./img/social_sprite.png) -48px 0;
+}
+
+.facebook:hover {
+  background: url(./img/social_sprite.png) -48px -48px;
+}
+
+.google {
+  background: url(./img/social_sprite.png) -96px 0px;
+}
+
+.google:hover {
+  background: url(./img/social_sprite.png) -96px -48px;
+}
+
+.pinterest {
+  background: url(./img/social_sprite.png) -144px -48px;
+}
+
+.twitter {
+  background: url(./img/social_sprite.png) 0 0;
+}
+
+.twitter:hover {
+  background: url(./img/social_sprite.png) 0 -48px;
+}
+
+.youtube {
+  background: url(./img/social_sprite.png) -192px 0;
+}
+
+.youtube:hover {
+  background: url(./img/social_sprite.png) -192px -48px;
+}

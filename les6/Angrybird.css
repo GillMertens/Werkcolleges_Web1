@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'birds';
+  src: url(./fonts/angry_birds_movie-webfont.eot) format('embedded-opentype');
+  src: url(./fonts/angry_birds_movie-webfont.woff) format('woff');
+  src: url(./fonts/angry_birds_movie-webfont.woff2) format('woff2');
+}
+
+h1 {
+  text-align: center;
+  font-family: 'birds';
+  font-size: 3em;
+  color: red;
+}
+
+div.birds {
+  display: flex;
+  /*flex-direction: row;*/
+  justify-content: space-evenly;
+}
+
+div div {
+  width: 135px;
+  height: 135px;
+  overflow: hidden;
+}
+
+.roetveeg {
+  background: url(./img/angrybird.png) 0 0;
+}
+
+.roetveeg:hover {
+  background: url(./img/angrybird.png) -130px 0;
+}
+
+.red {
+  background: url(./img/angrybird.png) 0 -130px;
+}
+
+.red:hover {
+  background: url(./img/angrybird.png) -130px -130px;
+}
+
+.green {
+  background: url(./img/angrybird.png) 0px -260px;
+}
+
+.green:hover {
+  background: url(./img/angrybird.png) -130px -260px;
+}
+
+.yellow {
+  background: url(./img/angrybird.png) 0px -390px;
+}
+
+.yellow:hover {
+  background: url(./img/angrybird.png) -130px -390px;
+}
