@@ -1,0 +1,33 @@
+main {
+  background-image: url(./img/landscape.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 200px 0;
+}
+
+h1 {
+  font-size: 2.5em;
+  text-align: center;
+  font-family: pacifico;
+  color: white;
+}
+
+p {
+  text-align: center;
+  color: white;
+  font-style: italic;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+i {
+  font-size: 1.1em;
+  color: white;
+  padding: 0 9px;
+}

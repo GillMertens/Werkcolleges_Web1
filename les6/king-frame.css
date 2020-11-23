@@ -1,4 +1,13 @@
-.frame{
+@font-face {
+  font-family: "AvQest";
+  src: url("AvQest.ttf");
+  src: url("AvQest.eot") format("embedded-opentype");
+  src: url("AvQest.svg") format("svg");
+  src: url("AvQest.woff") format("woff");
+  src: url("AvQest.woff2") format("woff2");
+}
+
+.frame {
   width: 400px;
   height: 490px;
   border: 140px solid transparent;
@@ -11,4 +20,9 @@
   background-position: -5px -18px;
   background-repeat: no-repeat;
   background-size: 410px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "AvQest";
 }
